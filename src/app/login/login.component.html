@@ -1,0 +1,24 @@
+<app-titlebar></app-titlebar>
+
+<md-content layout="row" layout-align="space-around" layout-padding="layout-padding" ng-cloak="ng-cloak">
+  <md-card flex="flex" class="login-card">
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2><span>Login Form</span></h2>
+      </div>
+    </md-toolbar>
+    <md-card-content>
+      <form name="Form">
+        <md-input-container class="md-block">
+          <input mdInput type="text" name="username" [(ngModel)]="username" placeholder="Login" required=""/>
+        </md-input-container>
+        <md-input-container class="md-block">
+          <input mdInput type="password" name="password" [(ngModel)]="password" placeholder="Password" required="">
+        </md-input-container>
+        <div class="custon-button-class">
+          <button md-button (click)="submit()">Login</button>
+        </div>
+      </form>
+    </md-card-content>
+  </md-card>
+</md-content>

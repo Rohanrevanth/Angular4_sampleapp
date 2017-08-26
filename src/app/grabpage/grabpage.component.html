@@ -1,0 +1,10 @@
+<app-titlebar></app-titlebar>
+
+
+<md-input-container>
+  <input mdInput placeholder="URL" [(ngModel)]="url">
+</md-input-container>
+
+<button md-button (click)="grab()">Grab</button>
+
+<md-card *ngIf="isTextAvailable" class="text-class">{{text}}</md-card>

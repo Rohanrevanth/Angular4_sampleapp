@@ -1,0 +1,17 @@
+img {
+    width: 14%;
+    margin-top: 9%;
+    margin-left: 9%;
+}
+
+.about {
+    font-family: "Roboto","Helvetica Neue","sans-serif";
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8%;
+    margin-left: 32%;
+}
+
+span {
+    color: #e3282d;
+}

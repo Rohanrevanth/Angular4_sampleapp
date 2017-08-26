@@ -1,0 +1,8 @@
+<md-toolbar>
+  <button (click)="gotoHome()" md-button>Home</button>
+  <button (click)="gotoGrab()" md-button>Grab</button>
+  <span class="app-toolbar-filler"></span>
+  <button md-button (click)="gotoLogin()" *ngIf="!isLoggedIn">Login</button>
+  <button md-button (click)="logout()" *ngIf="isLoggedIn">Logout</button>
+  <md-icon>account_circle</md-icon>
+</md-toolbar>
