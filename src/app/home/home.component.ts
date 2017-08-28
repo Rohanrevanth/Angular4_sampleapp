@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  private isLoggedIn : boolean;
+  public isLoggedIn : boolean;
 
   constructor(
     private router : Router    

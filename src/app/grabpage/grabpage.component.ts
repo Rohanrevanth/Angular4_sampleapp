@@ -10,9 +10,9 @@ import { MdSnackBar } from '@angular/material';
 })
 export class GrabpageComponent implements OnInit {
 
-  private url : string;
-  private text: string;
-  private isTextAvailable : boolean = false;
+  public url : string;
+  public text: string;
+  public isTextAvailable : boolean = false;
 
   constructor(
     private router : Router,

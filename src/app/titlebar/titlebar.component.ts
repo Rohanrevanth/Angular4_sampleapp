@@ -9,7 +9,7 @@ import { MdSnackBar } from '@angular/material';
 })
 export class TitlebarComponent implements OnInit, OnChanges {
 
-  private isLoggedIn : boolean;
+  public isLoggedIn : boolean;
 
   constructor(
     private router : Router,
