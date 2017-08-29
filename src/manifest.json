@@ -1,0 +1,38 @@
+{
+  "name": "Angular4 PWApp",
+  "short_name": "Ng4-PWA",
+  "description": "A simple progressive web app.",
+  "icons": [{
+    "src": "assts/img/flikster-logo.ico",
+    "sizes": "48x48",
+    "type": "image\/ico"
+  }, {
+    "src": "assts/img/flikster-logo.ico",
+    "sizes": "72x72",
+    "type": "image\/ico"
+  }, {
+    "src": "assts/img/flikster-logo.ico",
+    "sizes": "96x96",
+    "type": "image\/ico"
+  }, {
+    "src": "assts/img/flikster-logo.ico",
+    "sizes": "144x144",
+    "type": "image\/ico"
+  }, {
+    "src": "assts/img/flikster-logo.ico",
+    "sizes": "168x168",
+    "type": "image\/ico"
+  }, {
+    "src": "assts/img/flikster-logo.ico",
+    "sizes": "192x192",
+    "type": "image\/ico"
+  }],
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "related_applications": [{
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=com.flikster"
+  }]
+}
