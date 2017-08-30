@@ -37,3 +37,7 @@ Method 2.
 
 Confused? 
 Install live server by using `npm install -g live-server` and run `npm run bgs` to generating production build, service-worker and to start server all at once.
+
+## Note
+
+Replace icons in manifest.json according to size if you are installing the web app for your mobile.
